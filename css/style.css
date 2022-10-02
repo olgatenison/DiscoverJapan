@@ -120,7 +120,7 @@ html {
 .maine {
 }
 .intro {
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(
       180deg,
       rgba(53, 66, 103, 0.006) 0%,
@@ -128,4 +128,63 @@ html {
     ),
     url(../img/image_hero.jpg) no-repeat center;
   background-size: cover;
+  padding-top: 263px;
 }
+.intro__title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  max-width: 619px;
+
+  color: var(--white-color);
+
+  margin-bottom: 22px;
+}
+.intro__subtitle {
+  color: var(--dark-white-color);
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 546px;
+
+  margin-bottom: 59px;
+}
+.search-form {
+}
+.search-form__wrap {
+}
+.search-form__info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.search-form__field {
+  width: 297px;
+  background: transparent url(../img/svg/sircl-icon.svg) no-repeat left 6px;
+  background-size: 20px;
+  border: 0;
+  border-bottom: 2px solid #bfc0c5;
+  margin-right: 60px;
+  padding-left: 43px;
+  padding-bottom: 22px;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--white-color);
+}
+.search-form__field::placeholder {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--white-color);
+}
+.search-form__submit {
+  padding: 15px 39px;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: var(--white-color);
+  background-color: #1b7dff;
+  border: 0;
+}
+.search-form__submit:hover,
+.search-form__submit:focus,
+.search-form__submit:active {
+  background-color: var(--light-blue-color);
+}
+/* ----------------intro---------------*/
