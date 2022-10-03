@@ -156,7 +156,7 @@ img {
     url(../img/image_hero.jpg) no-repeat center;
   background-size: cover;
   padding-top: 263px;
-  padding-bottom: 373px;
+  padding-bottom: 224px;
 }
 .intro__title {
   max-width: 619px;
@@ -175,6 +175,7 @@ img {
   margin-bottom: 59px;
 }
 .search-form {
+  margin-bottom: 153px;
 }
 
 .search-form__wrap {
