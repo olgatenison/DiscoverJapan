@@ -766,10 +766,10 @@ img {
     transform: translateY(-50%) rotate(-45deg);
   }
   .intro {
-    padding-top: 150px;
+    padding-top: 260px;
   }
   .intro__title {
-    font-size: 32px;
+    font-size: 42px;
     line-height: 45px;
   }
   .intro__subtitle {
@@ -883,5 +883,13 @@ img {
       ),
       url(../img/hero.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 90px;
+  }
+  .intro {
+  }
+  .intro__title {
+    font-size: 32px;
+    line-height: 45px;
+    margin-bottom: 35px;
   }
 }
