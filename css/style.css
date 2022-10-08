@@ -194,7 +194,7 @@ img {
     ),
     url(../img/hero.jpg) no-repeat center;
   background-size: cover;
-  padding-top: 283px;
+  padding-top: 223px;
   padding-bottom: 154px;
 }
 .intro__title {
@@ -621,10 +621,10 @@ img {
 }
 .footer__menu-title {
   color: var(--white-color);
-  font-size: 18px;
+  font-size: 24px;
   line-height: 24px;
   font-weight: 500;
-  margin-bottom: 4px;
+  margin-bottom: 15px;
   text-decoration: none;
 }
 .footer__menu-link {
