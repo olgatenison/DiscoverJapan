@@ -153,7 +153,7 @@ img {
 .header__link:hover,
 .header__link:focus,
 .header__link:active {
-  opacity: 0.75;
+  opacity: 0.6;
 }
 
 .header__burger {
@@ -194,8 +194,8 @@ img {
     ),
     url(../img/hero.jpg) no-repeat center;
   background-size: cover;
-  padding-top: 223px;
-  padding-bottom: 154px;
+  padding-top: 283px;
+  padding-bottom: 124px;
 }
 .intro__title {
   max-width: 619px;
@@ -214,7 +214,7 @@ img {
   margin-bottom: 59px;
 }
 .search-form {
-  margin-bottom: 123px;
+  margin-bottom: 103px;
 }
 
 .search-form__wrap {
@@ -413,6 +413,7 @@ img {
 .places__card:hover .places__card-pic {
   transform: scale(1.05);
 }
+
 .places__card-title {
   position: absolute;
   bottom: 27px;
@@ -484,6 +485,7 @@ img {
 .tour__more:hover,
 .tour__more:focus {
   background: url(../img/svg/arrow2.svg) no-repeat right center;
+  background-size: 30px;
 }
 /* ----------------top---------------*/
 .top {
@@ -506,6 +508,7 @@ img {
 .top__card-pic {
   position: relative;
   margin-bottom: 45px;
+  overflow: hidden;
 }
 .top__card-pic-thum {
 }
@@ -516,6 +519,8 @@ img {
   align-items: center;
   justify-content: flex-end;
   bottom: 0;
+  transform: translateY(101%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   left: 0;
   width: 100%;
   background: rgba(21, 24, 36, 0.6);
@@ -549,6 +554,10 @@ img {
   background: url(../img/svg/message.svg) no-repeat right;
 }
 .top__card-coments-value {
+}
+.top__card-pic:hover .top__card-stars,
+.top__card-pic:focus .top__card-stars {
+  transform: translateY(0);
 }
 .top_card-desk {
   line-height: 24px;
