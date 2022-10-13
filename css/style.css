@@ -193,9 +193,9 @@ img {
       rgba(162, 82, 182, 0) 0%,
       rgba(21, 28, 57, 0.5)
     ),
-    url(../img/hero.jpg) no-repeat center;
+    url(../img/hero.jpg) no-repeat center, var(--bg-darck-blue-color);
   background-size: cover;
-  padding-top: 153px;
+  padding-top: 253px;
   padding-bottom: 124px;
 }
 .intro__title {
@@ -204,7 +204,7 @@ img {
   font-size: 70px;
   line-height: 60px;
 
-  margin-bottom: 82px;
+  margin-bottom: 52px;
   color: var(--white-color);
 }
 .intro__subtitle {
