@@ -195,7 +195,7 @@ img {
     ),
     url(../img/hero.jpg) no-repeat center, var(--bg-darck-blue-color);
   background-size: cover;
-  padding-top: 253px;
+  padding-top: 153px;
   padding-bottom: 124px;
 }
 .intro__title {
@@ -212,7 +212,7 @@ img {
   font-size: 16px;
   line-height: 24px;
   max-width: 446px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 .search-form {
   margin-bottom: 60px;
