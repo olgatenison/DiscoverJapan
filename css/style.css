@@ -121,7 +121,7 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
-  padding-top: 56px;
+  padding-top: 36px;
 }
 .header_active {
   background-color: var(--bg-darck-blue-color);
@@ -195,7 +195,7 @@ img {
     ),
     url(../img/hero.jpg) no-repeat center, var(--bg-darck-blue-color);
   background-size: cover;
-  padding-top: 153px;
+  padding-top: 183px;
   padding-bottom: 124px;
 }
 .intro__title {
@@ -215,7 +215,7 @@ img {
   margin-bottom: 60px;
 }
 .search-form {
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .search-form__wrap {
@@ -616,7 +616,7 @@ img {
 /* ----------------footer--------------*/
 .footer {
   background-color: var(--bg-darck-blue-color);
-  padding: 119px 0;
+  padding: 80px 0;
 }
 .wrapper {
 }
