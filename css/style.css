@@ -187,15 +187,15 @@ img {
 .maine {
 }
 .intro {
-  min-height: 100vh;
+  min-height: 900px;
   background: linear-gradient(
       180deg,
       rgba(162, 82, 182, 0) 0%,
       rgba(21, 28, 57, 0.5)
     ),
-    url(../img/hero.jpg) no-repeat center, var(--bg-darck-blue-color);
+    url(../img/hero.jpg) no-repeat top center, var(--bg-darck-blue-color);
   background-size: cover;
-  padding-top: 183px;
+  padding-top: 283px;
   padding-bottom: 124px;
 }
 .intro__title {
@@ -662,6 +662,13 @@ img {
   opacity: 0.75;
 }
 /* ----------------media-------------*/
+@media screen and (max-width: 1600px) {
+  .intro {
+    height: 800px;
+    padding-top: 280px;
+    padding-bottom: 130px;
+  }
+}
 @media screen and (max-width: 960px) {
   .search-form__field {
     margin-bottom: 35px;
@@ -699,10 +706,13 @@ img {
   }
   .tours-header-ico {
     margin: 0 auto 55px;
-    max-width: 250px;
+
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .tours-header-img {
+    width: 350px;
   }
   .tours__tour {
     column-gap: 35px;
@@ -923,5 +933,13 @@ img {
     font-size: 32px;
     line-height: 45px;
     margin-bottom: 55px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .benefits__title {
+    line-height: 1.2;
+  }
+  .tours-header-img {
+    width: 250px;
   }
 }
