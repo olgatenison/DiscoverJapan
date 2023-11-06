@@ -1,4 +1,7 @@
 # DiscoverJapan
+<p align="center">
+  <img src="https://github.com/olgatenison/DiscoverJapan/blob/main/img/prew.jpg?raw=true" width="700" alt="Превью изображение">
+</p>
 
 [study project](https://olgatenison.github.io/DiscoverJapan/)
 ______________________________________________________________
@@ -25,10 +28,6 @@ The project consists of the following blocks:
 * Videos
 * Footer
 
-  
-<p align="center">
-  <img src="https://github.com/olgatenison/DiscoverJapan/blob/main/img/prew.jpg?raw=true" width="700" alt="Превью изображение">
-</p>
 _____________________________________________________________
 
 ## Technologies Used
