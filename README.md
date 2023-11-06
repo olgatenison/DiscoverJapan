@@ -48,6 +48,6 @@ The project is available for viewing in any browser,
 it has a web, tablet and mobile version (screen width ≥ 320px).
 Also I made burger menu for  a smaller scrins.
 
-![preview]([https://github.com/olgatenison/DiscoverJapan/blob/main/img/121212.jpg])
+![preview]([img/121212.jpg])
 
 
