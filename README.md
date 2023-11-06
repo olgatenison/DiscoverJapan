@@ -24,6 +24,12 @@ The project consists of the following blocks:
 * Videos
 * Footer
 
+  
+<p align="center">
+  <img src="https://github.com/olgatenison/DiscoverJapan/blob/main/img/prew.jpg?raw=true" width="600" alt="Превью изображение">
+</p>
+
+![Превью изображение](https://github.com/olgatenison/DiscoverJapan/blob/main/img/prew.jpg?raw=true){:width="600px"}
 _____________________________________________________________
 
 ## Technologies Used
@@ -48,6 +54,6 @@ The project is available for viewing in any browser,
 it has a web, tablet and mobile version (screen width ≥ 320px).
 Also I made burger menu for  a smaller scrins.
 
-![Превью изображение](https://github.com/olgatenison/DiscoverJapan/blob/main/img/prew.jpg?raw=true)
+
 
 
