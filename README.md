@@ -11,6 +11,9 @@ The page is fully adaptive.
 
 It was used such technologies as flex, grid, BEM and simple JS. 
 
+<p align="center">
+  <img src="https://github.com/olgatenison/DiscoverJapan/blob/main/img/prew.jpg?raw=true" width="600" alt="Превью изображение">
+</p>
 ______________________________________________________________
 
 The project consists of the following blocks:
@@ -24,12 +27,6 @@ The project consists of the following blocks:
 * Videos
 * Footer
 
-  
-<p align="center">
-  <img src="https://github.com/olgatenison/DiscoverJapan/blob/main/img/prew.jpg?raw=true" width="600" alt="Превью изображение">
-</p>
-
-![Превью изображение](https://github.com/olgatenison/DiscoverJapan/blob/main/img/prew.jpg?raw=true){:width="600px"}
 _____________________________________________________________
 
 ## Technologies Used
